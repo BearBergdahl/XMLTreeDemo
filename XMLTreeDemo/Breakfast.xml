@@ -44,7 +44,7 @@
 	</h:breakfast_menu>
 
 	<!--Now lets do a light breakfast-->
-	<l:breakfast_light xmlns:l="http://www.molk.com/light-breakfast">
+	<l:breakfast_menu xmlns:l="http://www.molk.com/light-breakfast">
 		<l:food>
 			<name>Granola</name>
 			<price>$3.95</price>
@@ -74,8 +74,11 @@
 			<price>$6.95</price>
 			<description>
 				Two eggs, boiled, rye sourdoug with ham, milk
+				<eggboiledminutes>5</eggboiledminutes>
+				<eggboiledminutes>6</eggboiledminutes>
+				<eggboiledminutes>7</eggboiledminutes>
 			</description>
 			<calories protein_percentage='40%'>600</calories>
 		</l:food>
-	</l:breakfast_light>
+	</l:breakfast_menu>
 </breakfast>
