@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<breakfast>
+	<h:breakfast_menu xmlns:h="http://www.molk.com/heavy-breakfast">
+		<h:food>
+			<name>Belgian Waffles</name>
+			<price>$5.95</price>
+			<description>
+				Two of our famous Belgian Waffles with plenty of real maple syrup
+			</description>
+			<calories>650</calories>
+		</h:food>
+		<h:food>
+			<name>Strawberry Belgian Waffles</name>
+			<price>$7.95</price>
+			<description>
+				Light Belgian waffles covered with strawberries and whipped cream
+			</description>
+			<calories>900</calories>
+		</h:food>
+		<h:food>
+			<name>Berry-Berry Belgian Waffles</name>
+			<price>$8.95</price>
+			<description>
+				Belgian waffles covered with assorted fresh berries and whipped cream
+			</description>
+			<calories>900</calories>
+		</h:food>
+		<h:food>
+			<name>French Toast</name>
+			<price>$4.50</price>
+			<description>
+				Thick slices made from our homemade sourdough bread
+			</description>
+			<calories>600</calories>
+		</h:food>
+		<h:food>
+			<name>Homestyle Breakfast</name>
+			<price>$6.95</price>
+			<description>
+				Two eggs, bacon or sausage, toast, and our ever-popular hash browns
+			</description>
+			<calories>950</calories>
+		</h:food>
+	</h:breakfast_menu>
+
+	<!--Now lets do a light breakfast-->
+	<l:breakfast_light xmlns:l="http://www.molk.com/light-breakfast">
+		<l:food>
+			<name>Granola</name>
+			<price>$3.95</price>
+			<description>
+				Low suger Granola and low fat milk
+			</description>
+			<calories>350</calories>
+		</l:food>
+		<l:food>
+			<name>Strawberry Granola</name>
+			<price>$6.95</price>
+			<description>
+				Granola with strawberries and milk
+			</description>
+			<calories>400</calories>
+		</l:food>
+		<l:food>
+			<name>French Toast</name>
+			<price>$4.50</price>
+			<description>
+				Sourdoug rye bread with lettuce and ham
+			</description>
+			<calories>400</calories>
+		</l:food>
+		<l:food>
+			<name>Protein Rich</name>
+			<price>$6.95</price>
+			<description>
+				Two eggs, boiled, rye sourdoug with ham, milk
+			</description>
+			<calories protein_percentage='40%'>600</calories>
+		</l:food>
+	</l:breakfast_light>
+</breakfast>
